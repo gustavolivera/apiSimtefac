@@ -10,6 +10,7 @@ import { Reflector } from '@nestjs/core';
 import * as QRCode from 'qrcode';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { UserEntity } from 'src/models/entities/user.entity';
+import { Request } from 'express';
 
 @Controller('users')
 export class UserController {
